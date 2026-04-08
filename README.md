@@ -132,4 +132,4 @@ If referencing this repository, please cite the associated project report.
 
 ## Notes
 
-This repository is intended to provide transparency and reproducibility for a course-based bioinformatics project. It does not represent a clinical or diagnostic resource.
+This repository is intended to provide transparency and reproducibility for a course-based bioinformatics project. It does not represent a clinical or diagnostic resource. Portions of this README were drafted with assistance from ChatGPT and reviewed/edited by the author.
