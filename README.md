@@ -22,33 +22,16 @@ A curated set of 11 pathogenic or likely pathogenic variants was analyzed.
 
 ### Data
 
-- `variants_master_table.csv`  
-  Full curated dataset of *PINK1* variants including:
-  - rsID
-  - Protein change (HGVS p.)
-  - Genomic coordinates (GRCh38)
-  - Variant consequence
-  - ClinVar classification and review status
-  - gnomAD allele frequency (AF), allele count (AC), allele number (AN)
-  - Population-specific allele frequencies
-  - 1000 Genomes allele frequency data
+- `data/variants_master_table.csv`  
+  Full curated dataset of *PINK1* variants including rsID, protein change, genomic coordinates, clinical classification, and population allele frequencies.
 
-- `resources_table.csv`  
-  Summary of all datasets and tools used, including:
-  - Version/release information
-  - Genome build
-  - Data retrieved
-  - Purpose in analysis
-
----
+- `data/resources_table.csv`  
+  Summary of all datasets and tools used, including version information, genome build, data retrieved, and purpose in the project.
 
 ### Code
 
-- `analysis.R`  
-  R script used for:
-  - Data structuring and transformation
-  - Hardy–Weinberg calculations
-  - Visualization of allele frequencies
+- `code/analysis.R`  
+  R script used to structure allele frequency data and generate the log-scale allele frequency plot.
 
 ---
 
@@ -101,15 +84,10 @@ Summed allele frequencies (q_total) were used to estimate aggregate genotype fre
 
 ---
 
-## Reproducibility
-
-All analyses were conducted using:
-- R (version 4.5.1)
-- ggplot2
-
-To reproduce figures:
-1. Load `variants_master_table.csv`
-2. Run `analysis.R`
+To reproduce the figure:
+1. Open `code/analysis.R`
+2. Run the script in R
+3. The output figure will be saved as `PINK1_variant_AF_plot.png`
 
 ---
 
