@@ -1,0 +1,8 @@
+Dataset/Resource,Version / Release,Access Date,Genome Build,Data Retrieved,Purpose in Project,Access Method
+ClinVar,12/2024 release,March 2026,GRCh38,"Clinical significance, review status, HGVS, rsID",Variant clinical annotation,Web browser
+MDSgene,Version 3.5.95,March 2026,N/A,PINK1 mutation listing,Confirm disease association,Web browser
+dbSNP,"Build 157 (September 3, 2024)",March 2026,GRCh38,"rsID, genomic coordinates",Identifier harmonization,Web browser
+gnomAD,v4.1.0,March 2026,GRCh38,"AF, AC, AN, ancestry-specific AF",Population allele frequencies,Web browser
+1000 Genomes,Phase 3,March 2026,GRCh38/37,"Global AF, superpopulation AF",Cross-reference population frequency,Through Ensembl
+Ensembl Variant Effect Predictor,Release 115 - September 2025,March 2026,GRCh38,"Location, consequence, ref/variant allele, rsID, clinical significance",Tabulate variant information,Web browser
+R,R 4.5.1 GUI 1.82 High Sierra build,March 2026,N/A,N/A,Visualization of variant allele frequencies,Desktop application
